@@ -1,0 +1,37 @@
+Package: fireData
+Title: Connect to 'Google Firebase'
+Version: 2.0.2
+Authors@R: c(
+    person("Robin", "Gounder", email = "robin@gounder.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-7755-7081")),
+    person("Paul", "Spende", role = "aut"),
+    person("Kevin", "McGinley", role = "ctb")
+  )
+Description: Provides an interface to 'Google Firebase' services
+    <https://firebase.google.com/>, including 'Firebase Realtime Database',
+    'Cloud Firestore', 'Firebase Authentication', and 'Cloud Storage for Firebase'.
+    Supports interactive use and 'shiny' applications as well as automated
+    server-side workflows. Data frames and objects can be stored and retrieved,
+    users can be authenticated, and files can be managed through the services'
+    application programming interfaces.
+Depends: R (>= 4.1.0)
+License: MIT + file LICENSE
+URL: https://github.com/Kohze/fireData
+BugReports: https://github.com/Kohze/fireData/issues
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports: httr (>= 1.4.0), jsonlite (>= 1.8.0), curl (>= 5.0.0), R6 (>=
+        2.5.0), openssl (>= 2.0.0), yaml (>= 2.3.0)
+Suggests: testthat (>= 3.2.0), shiny (>= 1.7.0), shinyjs, knitr,
+        rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-09-19 17:49:41 UTC; robin
+Author: Robin Gounder [aut, cre] (ORCID:
+    <https://orcid.org/0009-0008-7755-7081>),
+  Paul Spende [aut],
+  Kevin McGinley [ctb]
+Maintainer: Robin Gounder <robin@gounder.com>
+Repository: CRAN
+Date/Publication: 2026-09-29 14:20:24 UTC
